@@ -15,11 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ResetPasswordActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".Vendor" />
         <activity android:name=".Success" />
         <activity android:name=".ShoppingCart" />
         <activity android:name=".Signup" />
+        <activity
+            android:name=".PhoneActivity"
+            android:label="@string/title_activity_phone" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".DetailFood" />
         <activity android:name=".SplashScreen">
